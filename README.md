@@ -1,7 +1,7 @@
 # Array Cardio I
 
 ```
-    const mortals = [
+       const mortals = [
      
       { first: 'Maria', last: 'Skłodowska', year: 1867, passed: 1934 },
       { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
@@ -19,12 +19,12 @@
 
     // Array.prototype.filter()
       
-      const century = mortals.filter(mortal => (mortal.year >= 1400 && mortal.year < 1500))
+      const century = mortals.filter(mortal => (mortal.year >= 1400 && mortal.year < 1500));
       console.table(century)
       
     // Array.prototype.map()
       
-     const fullName = mortals.map(people => `${mortals.first} ${mortals.last}`);
+     const fullName = mortals.map(mortals => `${mortals.first} ${mortals.last}`);
      console.table(fullName);
       
     // Array.prototype.sort()
