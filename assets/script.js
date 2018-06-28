@@ -16,12 +16,12 @@
 
     // Array.prototype.filter()
       
-      const century = mortals.filter(mortal => (mortal.year >= 1400 && mortal.year < 1500))
+      const century = mortals.filter(mortal => (mortal.year >= 1400 && mortal.year < 1500));
       console.table(century)
       
     // Array.prototype.map()
       
-     const fullName = mortals.map(people => `${mortals.first} ${mortals.last}`);
+     const fullName = mortals.map(mortals => `${mortals.first} ${mortals.last}`);
      console.table(fullName);
       
     // Array.prototype.sort()
